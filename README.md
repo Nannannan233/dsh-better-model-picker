@@ -29,6 +29,11 @@ dsh plugin --profile web add github:Nannannan233/dsh-better-model-picker
 4. 点击 provider 标题折叠或展开分组。
 5. 当前模型支持推理强度时，在弹层底部直接选择档位。
 
+## 卸载方式
+```
+dsh plugin --profile web remove dsh-better-model-picker
+```
+
 ## License
 
 [MIT](LICENSE)
