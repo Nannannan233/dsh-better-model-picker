@@ -1,0 +1,40 @@
+{
+  "name": "dsh-model-picker",
+  "version": "0.1.0",
+  "description": "A searchable, provider-grouped, recently-used model selector for the DeepSeek Harness Web composer.",
+  "license": "MIT",
+  "type": "module",
+  "main": "src/host.js",
+  "exports": {
+    ".": "./src/host.js",
+    "./client": "./src/client.js",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "src/host.js",
+    "src/client.js",
+    "README.md"
+  ],
+  "dsh": {
+    "client": {
+      "platform": "web",
+      "inject": []
+    }
+  },
+  "peerDependencies": {
+    "@deepseek-ai/cordis": "^4.0.1"
+  },
+  "keywords": [
+    "deepseek",
+    "harness",
+    "dsh",
+    "model",
+    "selector",
+    "plugin",
+    "picker"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/<your-account>/dsh-model-picker.git"
+  }
+}
