@@ -17,9 +17,12 @@
 ## 安装方式
 
 # 从 GitHub 直接安装
+```
 dsh plugin --profile web add github:Nannannan233/dsh-better-model-picker
+```
 
 # 或从本地路径安装
+```
 dsh plugin --profile web add file:../dsh-model-picker
 ```
 
