@@ -38,7 +38,7 @@ cordis_define -> cordis_run
 适合修改代码后反复试用。先克隆或复制仓库：
 
 ```bash
-git clone https://github.com/YOUR_ACCOUNT/dsh-model-picker.git
+git clone https://github.com/Nannannan233/dsh-better-model-picker.git
 cd dsh-model-picker
 ```
 
@@ -53,7 +53,7 @@ cd dsh-model-picker
 dsh plugin --profile web add dsh-model-picker
 
 # 或从 GitHub 直接安装
-dsh plugin --profile web add github:YOUR_ACCOUNT/dsh-model-picker
+dsh plugin --profile web add github:Nannannan233/dsh-better-model-picker
 
 # 或从本地路径安装
 dsh plugin --profile web add file:../dsh-model-picker
@@ -120,7 +120,7 @@ git init
 git add .
 git commit -m "feat: add searchable model picker"
 git branch -M main
-git remote add origin https://github.com/YOUR_ACCOUNT/dsh-model-picker.git
+git remote add origin https://github.com/Nannannan233/dsh-better-model-picker.git
 git push -u origin main
 ```
 
