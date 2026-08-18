@@ -21,11 +21,6 @@
 dsh plugin --profile web add github:Nannannan233/dsh-better-model-picker
 ```
 
-# 或从本地路径安装
-```
-dsh plugin --profile web add file:../dsh-model-picker
-```
-
 ## 使用
 
 1. 点击对话框右下角发送按钮左侧的模型控件。

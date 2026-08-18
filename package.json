@@ -1,5 +1,5 @@
 {
-  "name": "dsh-model-picker",
+  "name": "dsh-better-model-picker",
   "version": "0.1.0",
   "description": "A searchable, provider-grouped, recently-used model selector for the DeepSeek Harness Web composer.",
   "license": "MIT",
