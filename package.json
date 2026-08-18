@@ -7,10 +7,11 @@
   "main": "src/host.js",
   "exports": {
     ".": "./src/host.js",
-    "./client": "./src/client.js",
+    "./client": "./lib/client.js",
     "./package.json": "./package.json"
   },
   "files": [
+    "lib/client.js",
     "src/host.js",
     "src/client.js",
     "README.md"
@@ -22,7 +23,8 @@
     }
   },
   "peerDependencies": {
-    "@deepseek-ai/cordis": "^4.0.1"
+    "@deepseek-ai/cordis": "^4.0.1",
+    "react": "^18.2.0"
   },
   "keywords": [
     "deepseek",
